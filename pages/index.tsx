@@ -92,7 +92,7 @@ const PomoDoit: FC = () => {
               {repeated % 2 !== 0 ? `Sessão ${repeated % 2}` : 'PAUSA'}
             </Text>
           </Box>
-          <Text fontSize="9xl" fontWeight="black">
+          <Text fontSize={['6xl', '9xl']} fontWeight="black">
             {showTimeFragment(time.minute)}:{showTimeFragment(time.seconds)}
           </Text>
           <HStack spacing={6}>

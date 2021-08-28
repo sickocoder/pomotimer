@@ -82,7 +82,7 @@ const PomoDoit: FC = () => {
         <Box
           width="100vw"
           position="absolute"
-          top="15%"
+          top="14%"
           display="flex"
           flexDirection="column"
           alignItems="center"
